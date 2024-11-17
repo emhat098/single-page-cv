@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Geist:wght@100..900&display=swap');
+
+* {
+  font-family: 'Geist', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: normal;
+}
+
+main {
+  position: relative;
+}
+
+.flex {
+  display: flex;
+  width: 100%;
+  gap: 0.5rem;
+}
+
+.content {
+  position: absolute;
+  width: 100%;
+  top: 200px;
+}
+
+.container {
+  max-width: 50vw;
+  margin: auto;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+img {
+  border-radius: 1rem;
+}
+
+.banner img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.avatar img {
+  width: 100px;
+  height: 100px;
+}
+
+blockquote {
+  margin-left: 0.5rem;
+  border-left: 4px solid #000;
+  padding: 1rem;
+  margin: 0;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+strong {
+  font-weight: 600;
+}
